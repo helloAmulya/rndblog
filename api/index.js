@@ -79,7 +79,7 @@ require('dotenv').config();
 const app = express();
 
 // Middleware
-app.use(cors({ origin: 'https://daddy-blog-eight.vercel.app' })); // Replace with your frontend domain or remove the origin restriction for testing.
+app.use(cors({ origin: 'https://daddy-blog-eight.vercel.app' }));
 app.use(bodyParser.json());
 
 // MongoDB Connection
